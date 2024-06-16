@@ -18,7 +18,7 @@ textblob==0.15.3
 ```
 python sentiment_analysis.py
 ```
-It will then ask you to input a number. Ensure the number you enter is between 0 and 28332 (inclusive).
+It will then ask you to input a number. Ensure the number you enter is between 0 and 28331 (inclusive).
 
 **Sample output:**
 ```
@@ -31,8 +31,11 @@ The program will prompt you to enter a number again if the input doesn't fulfill
 ```
 Please select a review using an index number: 
 text
-Invalid input.
-Please select a review using an index number:
+Invalid input: invalid literal for int() with base 10: 'text'. Please enter a number between 0 and 28331.
+Please select a review using an index number: 
+-1
+Invalid input: Index out of range. Please enter a number between 0 and 28331.
+Please select a review using an index number: 
 ```
 
 ## Evaluation of Results
