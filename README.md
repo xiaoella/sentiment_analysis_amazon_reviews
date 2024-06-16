@@ -2,7 +2,7 @@
 Sentiment analysis of reviews of Amazon products to determine whether the emotional tone of the reviews is positive, negative, or neutral.
 
 ## Description of Dataset
-The dataset used in this task is the "Amazon Product Reviews" dataset from Kaggle, which contains customer reviews of various Amazon products. The column "reviews.text" is used specifically for this task, where sentiment analysis of the reviews has been carried out on 28332 observations.
+The dataset used in this task is the "Amazon Product Reviews" dataset from Kaggle, which contains customer reviews of various Amazon products. The column "reviews.text" is used specifically, where sentiment analysis of the reviews has been carried out on 28332 observations.
 
 ## Instructions to Run
 
