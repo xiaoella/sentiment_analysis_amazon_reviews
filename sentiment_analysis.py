@@ -64,9 +64,9 @@ while True:
     try:
         index = int(input("Please select a review using an index number: \n"))
         if index not in range(28332):
-            raise ValueError("Index out of range. Please enter a number between 0 and 28331.")
-    except ValueError:
-        print("Invalid input.")
+            raise ValueError("Index out of range")
+    except ValueError as e:
+        print(f"Invalid input: {e}. Please enter a number between 0 and 28331.")
     else:
         break
 # Printing the review and its predicted sentiment
